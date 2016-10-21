@@ -25,7 +25,8 @@
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish",
     "postpublish": "git push origin master --follow-tags",
-    "toc": "doctoc --github --title \"# Changelog\" CHANGELOG.md"
+    "toc": "doctoc --github --title \"# Changelog\" CHANGELOG.md",
+    "prod": "babel-node src/index.js"
   },
   "repository": {
     "type": "git",
