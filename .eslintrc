@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+
+  // 环境定义了预定义的全局变量。
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  /**
+   *  "off" 或 0 - 关闭规则
+   *  "warn" 或 1 - 开启规则，使用警告级别的错误：warn (不会导致程序退出),
+   *  "error" 或 2 - 开启规则，使用错误级别的错误：error (当被触发的时候，程序会退出)
+   */
+  "rules":{
+    //"注释不需要空格",
+    "spaced-comment": [0, "never"],
+    //括号前需要空格
+    "space-before-blocks":[0,{ "functions": "never", "keywords": "always"}],
+    //逗号后面需要空格?
+    "comma-spacing": [0, {"before": false, "after": true}],
+    //未使用变量函数
+    "no-unused-vars":[1],
+    //switch 缩进
+    "indent":[2,2,{"SwitchCase":1}],
+    //
+    "comma-dangle":[2,"never"],
+    "no-empty":[1],
+    //
+    "semi":[0,"always"],
+    "space-before-function-paren":[0],
+    "brace-style":[0],
+    "guard-for-in":[0],
+    "vars-on-top":[0],
+    "prefer-const":[1],
+    "one-var":[1],
+    "no-param-reassign":[1],
+    "space-infix-ops":[1],
+    "no-use-before-define":[0],
+    "import/no-extraneous-dependencies": [0],
+    "import/newline-after-import": [0],
+    "import/imports-first": [0],
+
+    //react
+    "react/prop-types":[1],
+    "react/sort-comp":[0],
+    "react/wrap-multilines":[0],
+  }
+}
