@@ -38,7 +38,7 @@ function sendMail(history) {
   let htmlData = {table: table}
   let html = HtmlReport.build(htmlData, MailReport)
   let mailInfo = {
-    'to': ['sevengo8378@gmail.com', 'shufujia0222@hotmail.com', 'byrne.liang@alo7.com'],
+    'to': ['sevengo8378@gmail.com', 'shufujia0222@hotmail.com'],
     'subject': '上海房产每日数据',
     'content': html,
     'plain_text': false
