@@ -43,12 +43,12 @@ logger.info(`fetching lianjia page`)
 const searches = {
   resold: {
     type: 'regexp',
-    regexp: /上海真实在售二手房 [0-9]+ 套/,
+    regexp: /上海链家真实在售二手房 [0-9]+ 套/,
     ch_name: '二手房'
   },
   rent: {
     type: 'regexp',
-    regexp: /上海真实租房 [0-9]+ 套/,
+    regexp: /上海链家真实租房 [0-9]+ 套/,
     ch_name: '租房'
   }
 }
