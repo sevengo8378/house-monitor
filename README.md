@@ -1,5 +1,7 @@
 # house
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sevengo8378/house-monitor.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 
 > 
